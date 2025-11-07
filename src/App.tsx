@@ -3,7 +3,7 @@ import './App.css'
 export default function App() {
   return (
     <>
-      <p>Hello World</p>
+      <h1 className='text-4xl font-bold text-gray-900'>HairDay</h1>
     </>
   )
 }
