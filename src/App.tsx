@@ -1,9 +1,14 @@
 import './App.css'
+import Schedule from './components/Schedule/schedule'
 
 export default function App() {
   return (
-    <>
-      <h1 className='text-4xl font-bold text-gray-900'>HairDay</h1>
-    </>
+    <main>
+      <Schedule />
+
+      <article className='content-agenda'>
+        oi
+      </article>
+    </main>
   )
 }

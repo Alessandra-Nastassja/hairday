@@ -1,0 +1,19 @@
+main {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #050505;
+}
+
+.content-schedule {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #232225;
+}
+
+.content-agenda {
+  display: flex;
+  flex-direction: column;
+}
