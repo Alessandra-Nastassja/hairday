@@ -2,7 +2,7 @@ main {
   display: flex;
   gap: 1rem;
   padding: 2rem;
-  background-color: #050505;
+  /* background-color: #050505; */
 }
 
 .content-schedule {
