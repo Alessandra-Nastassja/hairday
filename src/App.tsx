@@ -1,10 +1,10 @@
 import './App.css'
-import Schedule from './components/Schedule/schedule'
+import Sidebar from './components/Sidebar/sidebar'
 
 export default function App() {
   return (
     <main>
-      <Schedule />
+      <Sidebar />
 
       <article className='content-agenda'>
         oi

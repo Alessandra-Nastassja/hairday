@@ -4,7 +4,7 @@ import ButtonTime from './components/button-time'
 import InputDate from './components/input-date'
 import InputText from './components/input-text'
 
-export default function Schedule() {
+export default function Sidebar() {
   const horariosPeriodo = [
     {
       periodo: 'Manhã',
