@@ -93,7 +93,7 @@ Veja na imagem em anexo quais tarefas já foram concluídas (✅) e quais faltam
 
 ## 📚 Recursos
 
-- **Figma**: [Layout da aplicação](link-figma)
+- **Figma**: [Layout da aplicação](https://www.figma.com/design/E7wkjBTTSmA6pAZJpMmq84/Plataforma-de-agendamento--Community-?node-id=3-376&t=ZqqjGVEQDXHxEbbs-1)
 - **Deploy**: [Solução de referência](link-deploy)
 - **Fórum**: Rocketseat para dúvidas
 
