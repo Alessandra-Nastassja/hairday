@@ -27,7 +27,7 @@ export default function Sidebar() {
         <p className='text-gray-300 text-sm'>Selecione data, horário e informe o nome do cliente para criar o agendamento</p>
       </div>
 
-      <div className='flex flex-col'>
+      <div className='flex flex-col gap-2'>
         <Text variant="body-md-bold">Data</Text>
         <InputDate />
       </div>
@@ -36,10 +36,10 @@ export default function Sidebar() {
         <Text variant="body-md-bold">Horários</Text>
         
         {horariosPeriodo.map((item) => (
-          <div key={item.periodo}>
+          <div className='mt-2' key={item.periodo}>
             <label className='text-gray-300 leading-6'>{item.periodo}</label>
 
-            <div className='content-buttons-time'>
+            <div className='content-buttons-time mt-2'>
               {item.horarios.map((horario, idx) => (
                 <ButtonTime style={idx >= 0 ? { marginRight: '8px', ...(idx >= 4 ? { marginTop: '8px' } : {}) } : {}} key={horario}>
                   {horario}
@@ -50,7 +50,7 @@ export default function Sidebar() {
         ))}
       </div>
 
-      <div className='flex flex-col mt-6'>
+      <div className='flex flex-col mt-6 gap-2'>
         <Text variant="body-md-bold">Cliente</Text>
         <InputText />
       </div>
