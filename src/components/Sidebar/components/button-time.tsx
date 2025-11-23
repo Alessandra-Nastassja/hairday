@@ -25,21 +25,26 @@ interface ButtonProps extends VariantProps<typeof buttonVariants> {
   children?: React.ReactNode; 
   value?: string;
   disabled?: boolean;
+  isSelected?: boolean;
   style?: React.CSSProperties;
 }
 
 export default function ButtonTime({
   as = 'button', 
-  variant,
+  variant = 'default',
   className, 
   children, 
   value,
+  isSelected = false,
   disabled = false,
   ...props}: ButtonProps) {
+
+    const finalVariant = isSelected ? "selected" : disabled ? "disabled" : "default";
+
   return React.createElement(
     as, 
     {
-      className: buttonVariants({ variant, className }),
+      className: buttonVariants({ variant: finalVariant, className }),
       ...props
     },
     children,
