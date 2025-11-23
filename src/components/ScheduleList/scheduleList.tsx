@@ -1,4 +1,4 @@
-import { SunHorizonIcon } from "@phosphor-icons/react";
+import { SunHorizonIcon, TrashIcon } from "@phosphor-icons/react";
 
 export default function ScheduleList() {
   return (
@@ -9,16 +9,26 @@ export default function ScheduleList() {
         <input type="date" />
       </header>
 
-      <article>
-        <div className="flex flex-row justify-between items-center mb-4 border border-gray-600 rounded-lg p-4">
-          <div className="flex flex-row items-center gap-2">
+      <article className="border border-gray-600 rounded-lg overflow-hidden mt-4">
+        <div className="flex items-center justify-between px-4 py-3 bg-transparent border-b border-gray-700">
+          <div className="flex items-center gap-3">
             <SunHorizonIcon color="#846F2E" size={20} />
             <p className="text-gray-300">Manhã</p>
           </div>
-          <p className="text-gray-400">09h-12h</p>
+          <p className="text-gray-400 text-sm">09h-12h</p>
+        </div>
+
+        <div className="flex items-center justify-between px-4 py-4 bg-transparent">
+          <div className="flex items-center gap-6">
+            <p className="text-gray-200 font-bold">11:00</p>
+            <p className="text-gray-200">Alessandra Nastassja</p>
+          </div>
+
+          <button aria-label="Deletar agendamento" className="text-[#846F2E] hover:text-yellow-500 focus:outline-none">
+            <TrashIcon color="#846F2E" size={20} />
+          </button>
         </div>
       </article>
-
     </section>
   )
 }

@@ -23,7 +23,7 @@ export default function Sidebar() {
   return (
     <article className='content-schedule' style={{ width: '36%' }}>
       <div className='mb-6'>
-        <h1 className='text-gray-100 font-bold text-3xl'>Agende um atendimento</h1>
+        <h1 className='text-gray-100 font-bold text-3xl leading-8'>Agende um atendimento</h1>
         <p className='text-gray-300 text-sm'>Selecione data, horário e informe o nome do cliente para criar o agendamento</p>
       </div>
 
