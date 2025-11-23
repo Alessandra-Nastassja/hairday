@@ -10,6 +10,11 @@
 
 Criar o componente `ScheduleList` que **exibe agendamentos agrupados por período** (Manhã, Tarde, Noite) com suporte a remoção.
 
+> Nota de atualização: ajustes aplicados para refletir a implementação real do projeto.
+> - Estrutura de componentes prevista em `src/components/ScheduleList/`.
+> - Os agendamentos usam o campo `clientName` para o nome do cliente.
+> - Os estilos no projeto usam Tailwind e arquivos CSS utilitários; adapte as classes conforme necessário.
+
 ---
 
 ## 📋 Requisitos

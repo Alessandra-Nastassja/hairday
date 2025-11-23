@@ -51,6 +51,11 @@
 - **Prioridade**: 🔴 Alta
 - **Status**: ✅ Pronto
 
+> Nota de atualização: Os nomes e estruturas dos refinements foram adaptados para o repositório atual.
+> - `REFINEMENT_01_SIDEBAR.md` substitui referências antigas de "AGENDA".
+> - Types: o campo do nome do cliente é `clientName`.
+> - Componentes Sidebar e inputs estão em `src/components/Sidebar/`.
+
 ### 2️⃣ Refinamento 02: Gerenciamento de Estado
 - **Objetivo**: Centralizar estado com persistência
 - **Técnica**: Context API + useReducer

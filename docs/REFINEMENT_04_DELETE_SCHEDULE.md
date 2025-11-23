@@ -10,6 +10,10 @@
 
 Implementar a funcionalidade de **remover agendamentos** com confirmação e feedback visual ao usuário.
 
+> Nota de atualização: o projeto atualmente possui `ScheduleItem` e `ScheduleList` esperados em `src/components/ScheduleList/`.
+> - A interface do agendamento utiliza `clientName` em vez de `name`.
+> - O fluxo de deleção permanece o mesmo; o componente `ScheduleItem` pode usar `window.confirm()` ou um `ConfirmDialog` customizado.
+
 ---
 
 ## 📋 Requisitos

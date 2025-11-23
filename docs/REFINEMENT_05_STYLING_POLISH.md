@@ -10,6 +10,9 @@
 
 Implementar **estilo completo baseado no Figma**, layout responsivo e polimentos finais para uma aplicação profissional.
 
+> Nota de atualização: o projeto usa Tailwind CSS nas implementações (veja classes como `text-gray-100`, `bg-gray-600` etc.) e CVA para variantes de botão.
+> - Ajuste os exemplos CSS conforme o setup do projeto (Tailwind + alguns arquivos CSS globais em `src/`).
+
 ---
 
 ## 📋 Requisitos

@@ -10,6 +10,11 @@
 
 Implementar **gerenciamento centralizado de estado** dos agendamentos em `App.tsx` com operações CRUD (Create, Read, Update, Delete).
 
+> Nota de atualização: este documento foi ajustado para a estrutura real do repositório.
+> - O componente `Sidebar` está em `src/components/Sidebar/sidebar.tsx` (export default).
+> - Inputs e botões usam Tailwind CSS e CVA; ícones usam `@phosphor-icons/react`.
+> - O campo que armazena o nome do cliente está nomeado como `clientName` nos tipos do projeto.
+
 ---
 
 ## 📋 Requisitos

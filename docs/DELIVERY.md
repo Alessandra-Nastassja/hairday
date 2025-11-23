@@ -25,6 +25,15 @@ Total: **9 arquivos Markdown** com **~125 KB de documentação**
 - **REFINEMENT_04_EDIT_MODAL.md** - Modal de edição
 - **REFINEMENT_05_DESIGN_SYSTEM.md** - Design System base
 
+> Nota: os nomes dos arquivos de refinements no repositório foram normalizados para:
+> - `REFINEMENT_01_SIDEBAR.md`
+> - `REFINEMENT_02_SCHEDULE_STATE.md`
+> - `REFINEMENT_03_SCHEDULE_LIST.md`
+> - `REFINEMENT_04_DELETE_SCHEDULE.md`
+> - `REFINEMENT_05_STYLING_POLISH.md`
+>
+> Ajuste os links conforme a estrutura atual do diretório `docs/`.
+
 ---
 
 ## 📊 Conteúdo por Arquivo

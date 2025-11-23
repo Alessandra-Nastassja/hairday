@@ -20,6 +20,11 @@
 4. **[REFINEMENT_04_DELETE_SCHEDULE.md](./REFINEMENT_04_DELETE_SCHEDULE.md)** - Remover agendamentos
 5. **[REFINEMENT_05_STYLING_POLISH.md](./REFINEMENT_05_STYLING_POLISH.md)** - Estilo e responsividade
 
+> Nota de atualização global: a documentação foi ajustada para refletir a estrutura real do repositório HairDay.
+> - Componentes Sidebar, Button e Inputs estão em `src/components/Sidebar/`.
+> - Use `pnpm` (ou `npm`) para instalar dependências. Dependências importantes: `class-variance-authority`, `@phosphor-icons/react`, `tailwindcss` (se estiver usando Tailwind).
+> - Tipos de dados usam `clientName` como propriedade do cliente nos `Schedule`.
+
 ---
 
 ## 📋 Checklist Rápido
